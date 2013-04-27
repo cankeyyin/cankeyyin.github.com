@@ -28,7 +28,9 @@ for(i=0;i<length1;i++){ /* 将表单中的用户输入的搜索字符串的空�
 else string2+=string1.charAt(i);} 
 var search=string2.split('+'); /* 将转换过的搜索字符串以"+"为分割符分割为一个字符串数组 */ 
 uptodataSearch(search); 
-outWin=window.open('Adding Ajax to a Website.htm','newwindow','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no'); doc=outWin.document; 
+outWin=window.open('Adding Ajax to a Website.htm','newwindow','height=100,width=400,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no'); 
+doc=outWin.document; 
+doc=document.getElemetById('body'); 
 if(hitCount!=0){ /* 如果检索到符合要求的页面 */ 
 doc.write('<p>检索结果：共有'+hitCount+'个页面符合字符串："<b><font color="ff0000">'+string2+'</font></b>"：</p><ul>'); 
 for(i=0;i<hitCount;i++){ 
@@ -61,7 +63,7 @@ index[hitCount]=i; hitCount++;} } } } }
 </script>
 
 </head>
-<body>
+<body id="body">
 <h1>好文章收集</h1>
 
 <form name="search" onsubmit="goSearch(this)"> 
