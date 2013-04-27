@@ -1,0 +1,2754 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:mv="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=±êÌâ content="">
+<meta name=¹Ø¼ü´Ê content="">
+<meta http-equiv=Content-Type content="text/html; charset=x-mac-chinesesimp">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="Adding%20Ajax%20to%20a%20Website.files/filelist.xml">
+<link rel=Edit-Time-Data href="Adding%20Ajax%20to%20a%20Website.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Sunkay</o:Author>
+  <o:LastAuthor>Sunkay</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>3</o:TotalTime>
+  <o:Created>2013-04-27T11:25:00Z</o:Created>
+  <o:LastSaved>2013-04-27T11:29:00Z</o:LastSaved>
+  <o:Pages>6</o:Pages>
+  <o:Words>3359</o:Words>
+  <o:Characters>19152</o:Characters>
+  <o:Lines>159</o:Lines>
+  <o:Paragraphs>44</o:Paragraphs>
+  <o:CharactersWithSpaces>22467</o:CharactersWithSpaces>
+  <o:Version>14.0</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="Adding%20Ajax%20to%20a%20Website.files/themedata.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>10 pt</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:NoLineBreaksAfter Lang="JA">$([{¡ê£¤¡¤¡®¡°¡´¡¶¡¸¡º¡¾¡²¡¼&#12317;&#65113;&#65115;&#65117;¡ç£¨£®£Û£û&#65505;&#65509;</w:NoLineBreaksAfter>
+  <w:NoLineBreaksBefore Lang="JA">!%),.:;&gt;?]}¡é¡§¡ã¡¤¡¦¡¥&#8213;¡¬¡¯¡±ÿ¡ë¡ä¡å&#8250;¡æ¡Ã¡¢¡£¡¨¡µ¡·¡¹¡»¡¿¡³¡½&#12318;¦á¦ã¦ç¦å¦ë&#65114;&#65116;&#65118;£¡£¢£¥£§£©£¬£®£º£»£¿£Ý£à£ü£ý&#65374;&#65504;</w:NoLineBreaksBefore>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="276">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:ËÎÌå;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:80;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1593833729 1073750107 16 0 415 0;}
+@font-face
+	{font-family:"\@ËÎÌå";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:80;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073743103 0 0 415 0;}
+@font-face
+	{font-family:"Lucida Grande";
+	panose-1:2 11 6 0 4 5 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-520090897 1342218751 0 0 447 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:ËÎÌå;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:Åú×¢¿òÎÄ±¾×Ö·û;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-fareast-font-family:ËÎÌå;
+	mso-fareast-theme-font:minor-fareast;
+	mso-font-kerning:1.0pt;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	text-indent:21.0pt;
+	mso-char-indent-count:2.0;
+	mso-pagination:none;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:ËÎÌå;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+span.a
+	{mso-style-name:Åú×¢¿òÎÄ±¾×Ö·û;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Åú×¢¿òÎÄ±¾;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:"Lucida Grande";
+	mso-ascii-font-family:"Lucida Grande";
+	mso-hansi-font-family:"Lucida Grande";
+	mso-bidi-font-family:"Lucida Grande";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:Cambria;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+@page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:1;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1 1 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level2
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level3
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level4
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level5
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level6
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level7
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level8
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l0:level9
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1
+	{mso-list-id:2;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2 101 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level3
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level4
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level5
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level6
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level7
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level8
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l1:level9
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2
+	{mso-list-id:3;
+	mso-list-type:hybrid;
+	mso-list-template-ids:3 201 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l2:level2
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level3
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level4
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level5
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level6
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level7
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level8
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l2:level9
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3
+	{mso-list-id:4;
+	mso-list-type:hybrid;
+	mso-list-template-ids:4 301 -1 -1 -1 -1 -1 -1 -1 -1;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l3:level2
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level3
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level4
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level5
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level6
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level7
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level8
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+@list l3:level9
+	{mso-level-start-at:0;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:0cm;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:ÆÕÍ¨±í¸ñ;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:Cambria;
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:21.0pt;
+text-justify-trim:punctuation'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Volume Number: 22 (2006)&#8232;Issue
+Number: 1&#8232;Column Tag: Programming</span></b><span style='font-family:
+Verdana;mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:16.0pt;text-align:left;
+mso-line-height-alt:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:
+none;text-autospace:none'><b><span style='font-size:24.0pt;font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'>Adding Ajax to
+a Website<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:14.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:18.0pt;font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'>Creating a
+dynamic, user-friendly website interface is simple and straightforward<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span class=GramE><i><span style='font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'>by</span></i></span><i><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'> Andrew Turner</span></i><span style='font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Introduction<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Modern websites and
+web-applications appear drastically different from sites on the web 5 and 10
+years ago. Tools like <span class=SpellE>GoogleMail</span>, <span class=SpellE>BaseCamp</span>,
+and <span class=SpellE>TiddlyWiki</span> have revolutionized the general
+concept of what a webpage can do and how users interact with it. The days of
+clicking on a simple hyperlink to be taken to a new page, or sitting and
+waiting for a form submission are rapidly dwindling.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The technology driving these sites
+is not really new, but their application and use has only recently become
+widespread and supported by a majority of web browsers. Furthermore, many web
+developers feel daunted by the rapid pace of the changing techniques and don't
+have a clear understanding of how the technologies are implemented and used.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>One of the most revolutionizing of
+these technologies has been dubbed AJAX (or Ajax depending upon whom you ask).
+Ajax is responsible for dynamic page content, marking database entries, and
+in-line text-editing without the need for page-reloads or large, complex
+plug-ins like Flash or Java.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The goal of this article is to
+teach you the basics of Ajax and demonstrate that it is not as difficult a
+concept as it may first appear. In reality, Ajax is simple and easy for any web
+developer to add to their new or already existing site.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>What is Ajax?</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AJAX is an acronym for:
+Asynchronous <span class=SpellE>Javascript</span> and XML. The most important
+concept of AJAX is the &quot;asynchronous&quot; part. Asynchronous
+communication means that commands do not need to wait for a response. By
+contrast, synchronous communication requires the command to wait for a response
+before continuing. An example of synchronous communication is a typical
+hyperlink; the user clicks a link, and then waits while the resulting page is
+requested, returned, and displayed. An asynchronous example may be having a
+contact name and phone number lookup with dynamic autocomplete with names
+already in the database. For application developers, it may be useful to think
+of synchronous communication as modal, while asynchronous is non-modal.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span class=SpellE><span style='font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'>Javascript</span></span><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'> is the client-side scripting language that has been used
+to implement the input, output and server-response handling. Because the code
+is client-side it is fast and scales up with increasing usage. The last part of
+the AJAX acronym is XML (extensible Markup Language), which is used in the response
+to encapsulate information. By using a structure like XML, the client can parse
+the tree for specific data without having a predetermined order of the data. As
+we will discuss, XML or <span class=SpellE>Javascript</span> are not required
+to implement &quot;Ajax&quot; in a site.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax uses several other
+technologies and functionality to work. XHTML and the Document Object Model
+(DOM) allow <span class=SpellE>Javascript</span> to dynamically modify a
+webpage. CSS (Cascading Style Sheets) are not necessary, but are typically
+employed to provide for easy layout and design of a webpage and allow the Ajax
+functionality to work on the data, and not the view.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The reason the technology is
+referred to as either AJAX or Ajax is because of the blurring between the
+concept, and the implementation. Ajax (non-acronym) has become the terminology
+associated with the ability to dynamically modify a webpage or backend content
+without requiring a page reload, while AJAX (acronym) is the specific
+implementation of Ajax employing <span class=SpellE>Javascript</span> and XML.
+The term Ajax was coined by Jesse Garnett of <span class=SpellE>AdaptivePath</span>
+(see resources) as a better name than the previously used &quot;Asynchronous
+JavaScript + CSS + DOM + <span class=SpellE>XMLHttpRequest</span>&quot;. <span
+class=GramE>The technologies were all originally combined by Microsoft</span>
+for developing their Outlook Personal Information Manager (PIM) web application
+interface.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Why use Ajax?</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>While the web has inarguably
+drastically changed the way a computer user works, to date they haven't been
+able to fully replace, or even work entirely in tandem with, desktop
+applications. To clarify, a desktop application is software that must be
+installed on a user's computer and is run in a self-contained window/context.
+By contrast, a web application operates primarily within a user's browser and <span
+class=GramE>is not required to be installed</span> on a machine. This provides
+users access to the application and associated data from any computer using a
+suitable browser.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>However, with the advent and
+widespread use of technologies such as Ajax, users can now complement, or even
+replace, their desktop applications with a web application. Many users are now
+switching to reading their email in <span class=SpellE>GoogleMail</span>,
+storing their documents and notes in <span class=SpellE>TiddlyWiki</span>,
+reading their RSS news via Gregarious, or working with colleagues in <span
+class=SpellE>BaseCamp</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Adding Ajax to your own web site or
+web application provides a much smoother, and rich user experience.
+Furthermore, Ajax websites more closely imitate their desktop counterparts,
+allowing users to interact and understand the user interfaces in a similar way.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax is also a relatively
+straightforward and simple technology to provide in a website. Developers may
+quickly become confused by all of the terms, techniques, and options. However,
+at its core, Ajax is quick to setup and begin using, and completely flexible
+for whatever the developer and site requirements need. Ajax can be used for
+features such as inline form validation, database queries, content editing,
+drag-and-drop, page updating, and many others<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Setting up the framework<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Parts of Asynchronous
+Communications</span></b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>In order to understand the
+essential parts of an Ajax framework, we will discuss the necessary parts of
+asynchronous communications. The parts are split up by Client, the user's
+browser, and Server, the website hosting server.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;text-indent:-36.0pt;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo1;
+tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-family:Verdana;mso-bidi-font-family:ËÎÌå;mso-bidi-theme-font:minor-fareast;
+color:#535353;mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span><![endif]><b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>Client:</span></b><span style='font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'> Create a
+request object&#8232;<span class=SpellE><b>BClient</b></span><b>:</b> Assign a
+response handler&#8232;<b>Client:</b> Send a query to the server&#8232;<span
+class=SpellE><b>Server</b></span><b>:</b> Receive the query, and perform
+operations&#8232;<b>Server:</b> Send the response to the client&#8232;<span
+class=SpellE><b>Client</b></span><b>:</b> Handle the server response<o:p></o:p></span></p>
+
+<p class=MsoListParagraph align=left style='margin-left:36.0pt;text-align:left;
+text-indent:-18.0pt;mso-char-indent-count:0;mso-pagination:widow-orphan;
+mso-list:l0 level1 lfo1'><![if !supportLists]><span style='font-size:10.0pt;
+font-family:Times;mso-fareast-font-family:Times;mso-bidi-font-family:Times;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:10.0pt;font-family:Times;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x56fe__x7247__x0020_6" o:spid="_x0000_i1025"
+ type="#_x0000_t75" alt="ËµÃ÷: http://www.mactech.com/articles/mactech/Vol.22/22.01/AddingAJAX/picture1_small.jpg"
+ style='width:400pt;height:116pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="Adding%20Ajax%20to%20a%20Website.files/image001.jpg"
+  o:title="//www.mactech.com/articles/mactech/Vol.22/22.01/AddingAJAX/picture1_small.jpg"/>
+</v:shape><![endif]--><![if !vml]><img width=402 height=118
+src="Adding%20Ajax%20to%20a%20Website.files/image002.jpg"
+alt="ËµÃ÷: http://www.mactech.com/articles/mactech/Vol.22/22.01/AddingAJAX/picture1_small.jpg"
+v:shapes="_x56fe__x7247__x0020_6"><![endif]></span><span style='font-size:9.0pt;
+font-family:Verdana;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:
+"Times New Roman";color:#666666;mso-font-kerning:0pt'><br>
+<b><span style='background:#B6BCC2'>Figure 1: Asynchronous communications allow
+a user to continually interact with the browser, and provides dynamic updating
+of the web site</span></b></span><span style='font-size:10.0pt;font-family:
+Times;mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:"Times New Roman";
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;text-indent:-36.0pt;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo1;
+tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-family:Verdana;mso-fareast-font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>The client requests to the server can happen continually,
+updating the web page or application on each response received. Each request
+happens separately from the interface, allowing the user to continue to view
+and interact with the web page.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>However, it is a good idea to only
+support a single asynchronous command at a time as the response may affect the
+interface data. If multiple asynchronous requests are supported, you must be
+careful to handle potential conflicts due to user interaction with outdated
+data.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Create a request object</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The first thing to do is to create
+a constructor that will build a client-side request object. A request object is
+responsible for wrapping up the actual request, response handler, and state of
+the request.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Remember that this <span
+class=SpellE>Javascript</span> code is being run on the user's desktop browser.
+Therefore creating the request object is the one place where browser specific
+code is required. In this case, Microsoft's Internet Explorer uses an ActiveX
+object as the request object, whereas the other browsers all support an <span
+class=SpellE><span class=GramE>XMLHttpRequest</span></span><span class=GramE>(</span>)
+constructor call. We can interrogate the browser to find out what type it is
+and create the appropriate object. This function is universal for any Ajax use.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>request</span> object constructor<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>createRequestObject</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> <span class=SpellE>ro</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> browser = <span class=SpellE>navigator.appName</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>if</span>(browser == &quot;Microsoft Internet Explorer&quot;){<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ro</span></span> = new <span class=SpellE>ActiveXObject</span>(&quot;<span
+class=SpellE>Microsoft.XMLHTTP</span>&quot;);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>}else</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ro</span></span> = new <span class=SpellE>XMLHttpRequest</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>return</span> <span class=SpellE>ro</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>You should now create a global
+request object that will be used by the client for all future communication.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>global</span> request object<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> http = <span class=SpellE>createRequestObject</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Assign a response handler and
+handle the response</span></b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Our second step is to assign a
+response handler. A handler is the function that will be called when the
+request comes back from the server to the <span class=GramE>client's</span>
+computer. This function is responsible for verifying the state of the answer,
+and parsing the response as appropriate. This function is implemented on a
+project specific basis. It needs to know what the expected response from the
+server looks like and how to place that response back into the user's browser
+document.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>callback</span> function that
+handles any state changes of our request to the server<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>handleResponse</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>if</span>(<span class=SpellE>http.readyState</span> == 1){<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;</span>// <span
+class=GramE>request</span> loading<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;status&quot;).<span
+class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= &quot;<span class=GramE>requesting</span>...&quot;;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>else</span> if(<span class=SpellE>http.readyState</span> == 4) { <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>request</span> complete<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>if</span>(<span class=SpellE>http.status</span> == 200) { <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// OK returned<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>var</span></span> response = <span
+class=SpellE>http.responseText</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>// Add more advanced parsing here if desired<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;<span
+class=SpellE>responseArea</span>&quot;).<span class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= <span class=GramE>response</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>else</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;status&quot;).<span
+class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= &quot;<span class=GramE>error</span>: &quot; + <span class=SpellE>http.statusText</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The first thing the <span
+class=SpellE>handleResponse</span> function does is <span class=GramE>check</span>
+the current state of the request object. If the object is loading (1), then the
+user is alerted to this, or if the request is complete (4) then we handle the
+response. This example just puts the response text (use <span class=SpellE>responseXML</span>
+for an XML response from a server) into our document's <span class=SpellE>responseArea</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Send a query to the server</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Now that we have setup the request
+object structure, as well as the state handling function, the next step is to
+create a function that our webpage will be calling for each outgoing request.
+This function could either accept information via an input parameter, or
+retrieve user input by querying the document.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Once the user input is received, we
+create a GET request to a URL. It is important to note that due to security
+concerns the request can only be made to a server that is hosting the webpage.
+The domain name must be exactly the same as the request URL, if there is a
+preceding www. <span class=GramE>to</span> the domain name. As usual, however,
+there are some fairly straightforward work <span class=SpellE>arounds</span>
+for getting external data for your Ajax requests. Several options will be
+discussed.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>This example demonstrates using a
+REST input (parameters passed via the URL), but other remote query and command
+options are also possible. Furthermore, the open command supports passing a
+username and password to the server for accessing protected services.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>function</span> for filling out and
+sending a request - called by the actual webpage<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>sendRequest</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> query = <span class=SpellE>document.getElementById</span>(&quot;<span
+class=SpellE>queryInput</span>&quot;).value;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> <span class=SpellE>queryURL</span>
+= &quot;http://localhost.com/service.php?q=&quot; + query;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.open</span></span>('GET', <span
+class=SpellE>queryURL</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.onreadystatechange</span></span> = <span
+class=SpellE>handleResponse</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.send</span></span>(null);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>return</span> true;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>We have now completed the necessary
+parts of our <span class=SpellE>Javascript</span> code to handle creating,
+sending, and receiving an asynchronous request through a client's browser.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Server handling of the request</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The client makes a request to some
+service or page that is served on the same domain as the original webpage. This
+service for this example is expecting a value passed via the URL in the GET
+parameters. The response can be well formed XML, or simple text that will be
+parsed by the client's browser as discussed above in the <span class=SpellE><span
+class=GramE>handleResponse</span></span><span class=GramE>(</span>) function.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span class=SpellE><span class=GramE><b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>service.php</span></b></span></span><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>?<span class=SpellE>php</span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>$<span class=GramE>query</span> = $_GET['q'];<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>$<span class=GramE>response</span> = <span class=SpellE>some_service_handling</span>($query);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>echo</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'>
+$response;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>?&gt;</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>This server page just passes the
+query onto another <span class=SpellE>php</span> function and then echoes the
+response. Since our Ajax request from the browser has made a GET request, this
+operates like any normal opening a page in a browser. However, instead of the
+page showing up in a window, it is handled by the client's <span class=SpellE><span
+class=GramE>handleReponse</span></span><span class=GramE>(</span>) function.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Using a remote service</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>As we mentioned earlier, security
+does not allow the Ajax, specifically <span class=SpellE>XMLHttpRequest</span>,
+to call another domain in the GET URL. The way around this is provide a locally
+served wrapper to the remote service. We can parse and pass on each of the
+incoming parameters. Also, many hosting services don't allow a URL to be opened
+via the <span class=SpellE><span class=GramE>fopen</span></span><span
+class=GramE>(</span>) command, so this example uses curl to make a request to a
+server. The subsequent response is read by the local server and then returned
+to the calling Ajax function.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span class=SpellE><span class=GramE><b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>remote</span></b></span><b><span style='font-family:Verdana;
+mso-bidi-font-family:Verdana;color:#535353;mso-font-kerning:0pt'>_service.php</span></b></span><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>?<span class=SpellE>php</span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>$<span class=SpellE><span class=GramE>remote</span>_params</span>
+= &quot;&quot;;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>foreach</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>($_GET as $key=&gt;$value)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>$$<span
+class=GramE>key</span> = $value;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>if</span>($value != '')<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>$<span
+class=SpellE><span class=GramE>remote</span>_params</span> .=
+&quot;&amp;&quot;.$key.&quot;=&quot;<span class=GramE>.$</span>value;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>$<span class=SpellE><span class=GramE>remote</span>_url</span>
+= &quot;http://remotehost.com/remoteservice.php?&quot;;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>get_content</span>($<span
+class=SpellE>url</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;
+</span>$<span class=SpellE>ch</span> = <span class=SpellE>curl_<span
+class=GramE>init</span></span><span class=GramE>(</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>curl</span>_setopt</span> ($<span class=SpellE>ch</span>,
+CURLOPT_URL, $<span class=SpellE>url</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>curl</span>_setopt</span> ($<span class=SpellE>ch</span>,
+CURLOPT_HEADER, 0);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ob</span>_start</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>curl</span>_exec</span> ($<span class=SpellE>ch</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>curl</span>_close</span> ($<span class=SpellE>ch</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;
+</span>$<span class=GramE>string</span> = <span class=SpellE>ob_get_contents</span>();
+<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ob</span>_end_clean</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>return</span> $string;<span style="mso-spacerun:yes">&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>$<span class=GramE>content</span> = <span class=SpellE>get_content</span>
+($remote_<span class=SpellE>url</span>.$<span class=SpellE>remote_params</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>echo</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'>
+$content;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>?&gt;</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>This example makes no checks on the
+incoming request. The query and parameters are passed directly onto the remote
+service. In a real application, it would be responsible to do some basic
+parameter checking before passing on the request to someone else's hosting
+service.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>That said, it is still a means by
+which to provide asynchronous services in your own website. You should also be
+aware that making these remote calls <span class=GramE>may</span> have longer
+response times. While this situation is an excellent reason why an asynchronous
+interface provides a better user experience, users may be left wondering if
+their request was just lost. Therefore, you should, when appropriate, let the
+user know that the request is pending in some way.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Furthermore, it would be possible
+to setup a timeout timer for each request that would call <span class=GramE>abort(</span>)
+on the request object if the request took too long.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Supporting non-<span class=SpellE>Javascript</span>
+functionality</span></b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>This framework will generally work
+for any modern, <span class=SpellE>Javascript</span> capable browser. However,
+not all users are using <span class=SpellE>Javascript</span> capable browsers,
+and other users may have disabled <span class=SpellE>Javascript</span>.
+Therefore, it is advised that your site support a non-<span class=SpellE>Javascript</span>
+version of your interface. At the very least, alert the user that they will not
+be able to use all of the functionality of your web application or page.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>To provide a non-<span
+class=SpellE>Javascript</span> interface only when necessary, your page should
+use the &lt;<span class=SpellE>noscript</span>&gt; tags paired with any
+&lt;script&gt; sections.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Using the Framework<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The <span class=SpellE>Javascript</span>
+framework is logical backend functionality of an Ajax enabled website. In order
+to use Ajax, the page must be properly constructed and typically web developers
+also wan the page to look nice. For both of these requirements, we will use
+XHMTL and CSS respectively.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Example query and response</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Lets illustrate the Ajax framework
+with an example. Our service could return a name and phone number of a contact
+from our webserver. The query parameter, q, could be some search term, and the
+response would be the contact's name, and phone number. Testing such a service
+is easy:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><a
+href="http://localhost.com/service.php?q=Jones"><span style='color:#164C93'>http://localhost.com/service.php?q=Jones</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>We will then expect a response
+like:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>Edward Jones, 800-555-1212<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Our <span class=SpellE>handleResponse</span>
+functionality <span class=GramE>need</span> to be expanded to split the
+response with the comma (or multiple commas for more data).<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'> (<span class=SpellE>handleResponse</span>)<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> data = <span class=SpellE>response.split</span>(',');<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>more</span> advanced parsing <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;<span
+class=SpellE>contact_name</span>&quot;).<span class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= <span class=GramE>data</span>[0];<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;<span
+class=SpellE>contact_number</span>&quot;).<span class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= <span class=GramE>data</span>[1];<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>This example response illustrates
+how easy Ajax is to begin to use. There is no need for complex XML parsing and
+handling. Any simple response can be used to dynamically update web content. We
+must be careful, however, as we have forced the response to return the
+information in a specific order and format.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>A more robust application should
+use XML to provide multiple contact data. The response handler could then
+iterate through the elements of the contact entry without having to
+predetermine the order of the response. In our example, if we switched the
+contact name and contact number order the application would behave incorrectly.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>In this case, we would instead get
+the <span class=SpellE>responseXML</span> and parse the XML document tree
+similar to the DOM of the browser document.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> response = <span class=SpellE>http.responseXML</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>contact_name</span> = <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>response.getElementsByTagName</span></span>('name').item(0);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>contact_number</span> =<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>response.getElementsByTagName</span></span>('number').item(0);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>However, XML is not necessary, and
+may be daunting when first starting to use Ajax, or integrate it into already
+existing web services. Therefore, we will continue our example using the simple
+text response. Since the XML handling is encapsulated in the <span
+class=SpellE><span class=GramE>handleResponse</span></span><span class=GramE>(</span>)
+function, it is possible to later change to using XML without modifying the
+rest of our framework.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Example page</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>To use the Ajax searching, we will
+need to provide an XHTML user interface for the query input, and the service
+response. The first thing we need to do is include our <span class=SpellE>Javascript</span>
+framework code in our page:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>html</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>head</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>script</span> type=&quot;text/<span
+class=SpellE>javascript</span>&quot; <span class=SpellE>src</span>=&quot;ajaxframework.js&quot;
+charset=&quot;utf-8&quot;&gt;&lt;/script&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/head&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Next we create the query input and
+&quot;Send&quot; button. Note the use of the ambiguous anchor link, #, in the <span
+class=SpellE>href</span> tag. We use an <span class=SpellE>href</span> link to
+allow standard style formatting of the &quot;Send&quot; button to match the
+rest of the sites hyperlinks. By using the local anchor, but with no actual
+anchor, the hyperlink won't cause a page refresh since the browser thinks it is
+just scrolling down the current page. Another option would have been to use a
+generic div and provide a unique formatting for Ajax link as compared to actual
+hyperlinks.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>body</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>input</span> type=&quot;text&quot;
+size=&quot;30&quot; id=&quot;<span class=SpellE>queryInput</span>&quot;
+value=&quot;&quot; /&gt; <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>a</span> <span class=SpellE>href</span>='#'
+<span class=SpellE>onClick</span>=&quot;<span class=SpellE>sendRequest</span>();&quot;&gt;Send&lt;/a&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>div</span>
+id=&quot;status&quot;&gt;&nbsp;&lt;/div&gt;&lt;<span class=SpellE>br</span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>div</span> id=&quot;<span
+class=SpellE>contact_name</span>&quot;&gt;&nbsp;&lt;/div&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>div</span> id=&quot;<span
+class=SpellE>contact_number</span>&quot;&gt;&nbsp;&lt;/div&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/body&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/html&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>When the &quot;Send&quot; link is
+pressed, the <span class=SpellE>queryInput</span> text input is sent as a query
+to our name lookup service. The user is free to continue to use the web
+browser. When the response is sent from the server, the retrieved name and
+number are placed in the <span class=SpellE>contact_name</span> and <span
+class=SpellE>contact_number</span> <span class=SpellE>divs.</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>A more advanced version of this
+application could add in-line searching of the contact name as the user types,
+similar to autocomplete.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Summary<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax is quickly transforming
+websites from repositories of data into dynamic and useful web applications.
+This article demonstrated how easy it is to get started with Ajax and add it to
+your own site. Some examples you can use it for include form checking while the
+user is entering information, site/document search, database row updating, or
+editing web content in place.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>For more advanced applications you
+may want to look at several available and supported Ajax toolsets that provide
+a ready framework and lots of other functionality. Prototype (see resources) is
+used in Ruby on Rails for its <span class=SpellE>Javascript</span> Ajax
+functionality, and <span class=SpellE>Sajax</span> is an Ajax toolset for PHP
+code.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Resources<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax technology</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;text-indent:-36.0pt;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-list:l1 level1 lfo2;
+tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-family:Verdana;mso-fareast-font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>Adaptive Path: <a
+href="http://www.adaptivepath.com/publications/essays/archives/000385.php"><span
+style='color:#164C93'>http://www.adaptivepath.com/publications/essays/archives/000385.php</span></a>&#8232;Mozilla
+Ajax documentation: <a href="http://developer.mozilla.org/en/docs/AJAX"><span
+style='color:#164C93'>http://developer.mozilla.org/en/docs/AJAX</span></a><span
+class=SpellE>&#8232;XMLHttpReques</span>t documentation&#8232;<a
+href="http://documentation:%20developer.apple.com/internet/webcontent/xmlhttpreq.html"><span
+style='color:#164C93'>http://documentation:
+developer.apple.com/internet/webcontent/xmlhttpreq.html</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax applications</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;text-indent:-36.0pt;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-list:l2 level1 lfo3;
+tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-family:Verdana;mso-fareast-font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>TiddlyWiki</span></span><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>: <a href="http://www.tiddlywiki.com/"><span
+style='color:#164C93'>http://www.tiddlywiki.com</span></a>&#8232;Gregarius RSS
+Reader: <a href="http://gregarius.net/"><span style='color:#164C93'>http://gregarius.net</span></a>&#8232;Basecamp:
+<a href="http://www.basecamphq.com/"><span style='color:#164C93'>http://www.basecamphq.com</span></a>&#8232;Geocode
+lookup (with source): <a href="http://highearthorbit.com/projects/geocode/"><span
+style='color:#164C93'>http://highearthorbit.com/projects/geocode/</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Ajax toolsets</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:0cm;margin-right:0cm;
+margin-bottom:12.0pt;margin-left:36.0pt;text-align:left;text-indent:-36.0pt;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-list:l3 level1 lfo4;
+tab-stops:11.0pt 36.0pt;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-family:Verdana;mso-fareast-font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><span style='mso-list:Ignore'>&#8226;<span
+style='font:7.0pt "Times New Roman"'>&nbsp; </span></span></span><![endif]><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'>Prototype, a <span class=SpellE>Javascript</span>
+framework for web apps: <a href="http://prototype.conio.net/"><span
+style='color:#164C93'>http://prototype.conio.net/</span></a>&#8232;Sajax, Ajax
+for PHP: </span><u style='text-underline:#164C93'><span style='font-family:
+Verdana;mso-bidi-font-family:Verdana;color:#164C93;mso-font-kerning:0pt'>http://www.modernmethod.com/sajax/</span></u><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><b><span
+style='font-size:14.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:#535353;mso-font-kerning:0pt'>Ajax Framework<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>The following files are the
+summation of the framework code developed in the article above. It can serve as
+a skeleton for building your own Ajax applications. Place these files in your
+/Library/<span class=SpellE>WebServer</span>/Documents directory on your Mac,
+and turn on &quot;Personal Web Sharing&quot; in the &quot;Sharing Preference
+Pane&quot;.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxFramework.js</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>createRequestObject</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> <span class=SpellE>ro</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> browser = <span class=SpellE>navigator.appName</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>if</span>(browser == &quot;Microsoft Internet Explorer&quot;){<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ro</span></span> = new <span class=SpellE>ActiveXObject</span>(&quot;<span
+class=SpellE>Microsoft.XMLHTTP</span>&quot;);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>}else</span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>ro</span></span> = new <span class=SpellE>XMLHttpRequest</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>return</span> <span class=SpellE>ro</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>var</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> http = <span class=SpellE>createRequestObject</span>();<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>handleResponse</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>if</span>(<span class=SpellE>http.readyState</span> == 1){<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;</span>// <span
+class=GramE>request</span> loading<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;status&quot;).<span
+class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= &quot;<span class=GramE>requesting</span>...&quot;;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>else</span> if(<span class=SpellE>http.readyState</span> == 4) { <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>// <span class=GramE>request</span> complete<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>if</span>(<span class=SpellE>http.status</span> == 200) {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;</span>// OK
+returned<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>var</span></span> response = <span
+class=SpellE>http.responseText</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;status&quot;).<span
+class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= &quot;<span class=GramE>loaded</span>&quot;;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;<span
+class=SpellE>responseArea</span>&quot;).<span class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= <span class=GramE>response</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+class=GramE>else</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>{<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span class=SpellE><span class=GramE>document.getElementById</span></span>(&quot;status&quot;).<span
+class=SpellE>innerHTML</span> <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>= &quot;<span class=GramE>error</span>: &quot; + <span class=SpellE>http.statusText</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span
+style="mso-spacerun:yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>function</span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'> <span class=SpellE>sendRequest</span>() {<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> query = <span class=SpellE>document.getElementById</span>(&quot;<span
+class=SpellE>queryInput</span>&quot;).value;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>var</span></span> <span class=SpellE>queryURL</span>
+= &quot;<span class=SpellE>service.php?q</span>=&quot; + query;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.open</span></span>('get', <span
+class=SpellE>queryURL</span>);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.onreadystatechange</span></span> = <span
+class=SpellE>handleResponse</span>;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=SpellE><span class=GramE>http.send</span></span>(null);<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><span style="mso-spacerun:yes">&nbsp;&nbsp; </span><span
+class=GramE>return</span> true;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>}<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>AjaxDemo.html</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>html</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>head</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>script</span> type=&quot;text/<span
+class=SpellE>javascript</span>&quot; <span class=SpellE>src</span>=&quot;ajaxframework.js&quot;&gt;&lt;/script&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/head&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>body</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=SpellE><span class=GramE>noscript</span></span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>Your browser does not support <span class=SpellE>Javascript</span>.
+Please upgrade your browser <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>or</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'>
+enable <span class=SpellE>Javascript</span> to use this site.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/<span class=SpellE>noscript</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>input</span> type=&quot;text&quot;
+size=&quot;30&quot; id=&quot;<span class=SpellE>queryInput</span>&quot;
+value=&quot;&quot; /&gt; <o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>a</span> <span class=SpellE>href</span>='#'
+<span class=SpellE>onClick</span>=&quot;<span class=SpellE>sendRequest</span>();&quot;&gt;Send&lt;/a&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>div</span>
+id=&quot;status&quot;&gt;&nbsp;&lt;/div&gt;&lt;<span class=SpellE>br</span>/&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=SpellE><span class=GramE>textarea</span></span>
+rows=&quot;20&quot; cols=&quot;70&quot; id=&quot;<span class=SpellE>responseArea</span>&quot;
+value=&quot;&quot; &gt;&lt;/<span class=SpellE>textarea</span>&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/body&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;/html&gt;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=SpellE><span class=GramE><span style='font-family:Courier;mso-bidi-font-family:
+Courier;color:#535353;mso-font-kerning:0pt'>service.php</span></span></span><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+style='font-family:Courier;mso-bidi-font-family:Courier;color:#535353;
+mso-font-kerning:0pt'>&lt;<span class=GramE>?<span class=SpellE>php</span></span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>echo</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'>
+$_GET[&quot;q&quot;];<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:18.0pt;
+mso-pagination:widow-orphan;mso-layout-grid-align:none;text-autospace:none'><span
+class=GramE><span style='font-family:Courier;mso-bidi-font-family:Courier;
+color:#535353;mso-font-kerning:0pt'>?&gt;</span></span><span style='font-family:
+Courier;mso-bidi-font-family:Courier;color:#535353;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:6.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-bottom:12.0pt;text-align:left;
+line-height:18.0pt;mso-pagination:widow-orphan;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-family:Verdana;mso-bidi-font-family:
+Verdana;color:#535353;mso-font-kerning:0pt'>Andrew Turner</span></b><span
+style='font-family:Verdana;mso-bidi-font-family:Verdana;color:#535353;
+mso-font-kerning:0pt'> is a Systems Development Engineer with <span
+class=SpellE>Realtime</span> Technologies, Inc. (<a
+href="http://www.simcreator.com/"><span style='color:#164C93'>www.simcreator.com</span></a>)
+and has built robotic airships, automated his house, designed spacecraft, and
+in general looks for any excuse to hack together cool technology. You can read
+more about his projects at <a href="http://www.highearthorbit.com/"><span
+style='color:#164C93'>www.highearthorbit.com</span></a>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>
+
+</body>
+
+</html>
