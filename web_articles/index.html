@@ -18,6 +18,7 @@ var URLs=new initArray('cankeyyin.github.io\\web_articles\\','cankeyyin.github.i
 
 function goSearch(){ 
 var searchStr=document.search.searchStr.value; /* 取得表单中的用户输入的搜索字符 */ 
+document.getElementById('body').write(searchStr);
 var string1=searchStr.toLowerCase(); /* 转换为小写，避免大小写敏感 */ 
 var length1=string1.length; 
 var string2=''; 
