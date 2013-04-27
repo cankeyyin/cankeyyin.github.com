@@ -17,7 +17,7 @@ for(i=0;i<length1;i++){ /* 将表单中的用户输入的搜索字符串的空�
 else string2+=string1.charAt(i);} 
 var search=string2.split('+'); /* 将转换过的搜索字符串以"+"为分割符分割为一个字符串数组 */ 
 uptodataSearch(search); 
-outWin=window.open('','',''); doc=outWin.document; 
+outWin=window.open('','',''); doc=document; 
 if(hitCount!=0){ /* 如果检索到符合要求的页面 */ 
 doc.write('<p>检索结果：共有'+hitCount+'个页面符合字符串："<b><font color="ff0000">'+string2+'</font></b>"：</p><ul>'); 
 for(i=0;i<hitCount;i++){ 
