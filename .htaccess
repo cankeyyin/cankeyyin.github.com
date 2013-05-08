@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{HTTP_HOST} ^(.*.)?thgwcn.com$
+RewriteCond %{REQUEST_URI} !^/web_tea/
+RewriteRule ^(.*)$ /web_tea/$1
