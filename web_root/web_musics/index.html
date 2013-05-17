@@ -1,0 +1,371 @@
+<html>
+	<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<style rel="stylesheet" type="text/css">
+		body {
+	font-size:13px;
+	font-family:寰蒋闆呴粦;
+	background:#5C83B6;
+	-webkit-user-select: none;
+}
+/*
+::-webkit-scrollbar{width: 0; height: 0;}
+*/
+/* clearfix */
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{display:inline-block}
+* html .clearfix{height:1%}
+.clearfix{display:block}
+audio {
+	display:none;
+}
+button {
+	font-size: 11px;
+	background: #D5DEE8;
+	height: 20px;
+	line-height:16px;
+	border: 1px solid #2A3B4C;
+	border-radius: 3px;
+	color:#43617B;
+	font-weight:600;
+	padding: 1px 3px;
+	cursor:pointer;
+}
+button:hover {
+	background: #FEF2C4;
+}
+#player {
+	width:280px;
+	height:340px;
+	background:#4F6E8D;
+	/*margin:20px auto;*/
+	border-radius:8px;
+	/*box-shadow:1px 1px 7px rgba(0, 0, 0, 0.4);*/
+}
+#controls {
+	height:70px;
+}
+.controls div {
+	float:left;
+	width:49px;
+	height:57px;
+	margin: 7px 0 6px 0;
+}
+#play {
+	background: url("images/ctrl.png");
+	margin-left:10px;
+	cursor:pointer;
+}
+#play:hover {
+	background: url("images/ctrl.png") no-repeat 0 -57px;
+}
+#play.playing {
+	background: url("images/ctrl.png") no-repeat -49px 0;
+}
+#play.playing:hover {
+	background: url("images/ctrl.png") no-repeat -49px -57px;
+}
+#next {
+	background: url("images/ctrl.png") no-repeat -98px 0;
+	cursor:pointer;
+}
+#next:hover {
+	background: url("images/ctrl.png") no-repeat -98px -57px;
+}
+#progress {
+	width:100px;
+	height:20px;
+	margin:25px 0;
+	border-radius:3px;
+	background:#1B2631;
+	overflow:hidden;
+	position:relative;
+	cursor:pointer;
+}
+#progress div{
+	width:0;
+	height:20px;
+	background:#374D62;
+	margin:0;
+	border-radius:3px 0 0 3px;
+}
+#progress p{
+	width:100px;
+	height:20px;
+	line-height:20px;
+	margin:0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size:10px;
+	text-align:center;
+	color:#FFF;
+	font-weight:600;
+}
+#volume {
+	width:50px;
+	height:16px;
+	margin:27px 10px;
+	position:relative;
+	background: url("images/vol.png") repeat-x;
+	cursor:pointer;
+}
+#volume div{
+	width:14px;
+	height:14px;
+	border: 1px solid #2A3B4C;
+	border-radius: 3px;
+	margin:0;
+	background: #D5DEE8 url("images/vol2.png") no-repeat;
+	position: absolute;
+	left: 34px;
+	top: 0;
+	cursor:pointer;
+}
+#volume div:hover {
+	background-color: #FEF2C4;
+}
+.bar {
+	height:30px;
+	line-height:30px;
+	background:#47637E;
+	padding:0 10px;
+}
+.bar button {
+	margin:5px 4px;
+}
+.bottom {
+	border-radius:0 0 8px 8px;
+	color:#D5DEE8;
+	font-size:12px;
+	font-weight:700;
+}
+#mode {
+	color:#FFF;
+	cursor:pointer;
+}
+#musiclist {
+  height:240px;
+  background:#FFF;
+  margin:0;
+  list-style:square;
+  padding-left:0;
+  overflow:scroll;
+}
+#musiclist li{
+  height:24px;
+  line-height:24px;
+  font-size:12px;
+  color:#121834;
+  padding-left:10px;
+  list-style-position:inside;
+  cursor:default;
+}
+#musiclist li.isplay {
+  background:#FFD133;
+}
+#musiclist li:hover {
+  background:#FEDB65;
+}
+#musiclist li.disable {
+  color:#CCD0DB;
+}
+#musiclist li.disable:hover {
+  background:#FFF;
+}
+footer {
+	text-align:center;
+	color:#555;
+}
+footer a {
+	color:#555;
+}
+	</style>
+	
+	<script src="http://demo.alphatr.com/script/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		
+		var mucicFiles=[
+	{name:"四季 春季 第一乐章",author:"",url:"维瓦尔第 四季 春季 第一乐章.mp3"},
+	{name:"小夜曲",author:"",url:"莫扎特 小夜曲.mp3"},
+	{name:"小星星变奏曲",author:"",url:"莫扎特 小星星变奏曲.mp3"},
+	{name:"土耳其进行曲",author:"",url:"莫扎特 土耳其进行曲.mp3"},
+	{name:"梦中的婚礼",author:"",url:"理查德·克莱德曼 梦中的婚礼.mp3"},
+	{name:"水边的阿狄丽娜",author:"",url:"理查德·克莱德曼 水边的阿狄丽娜.mp3"},
+	{name:"童年的回忆",author:"",url:"查理德·克莱德曼 童年的回忆.mp3"},
+	{name:"蓝色的爱",author:"",url:"理查德·克莱德曼 蓝色的爱.mp3"},
+	{name:"梁祝",author:"",url:"理查德·克莱德曼 梁祝.mp3"},
+	{name:"摇篮曲",author:"",url:"勃拉姆斯 摇篮曲.mp3"},
+	{name:"快乐的农夫",author:"",url:"舒曼 快乐的农夫.mp3"}
+];
+$(function(){
+	var $media = $("#musicbox");
+    var musicIndex = -1; //当前正在播放的歌曲的索引
+    var playingFile = null; //当前正在播放的歌曲
+    var playMode = 1; //播放模式
+	
+	init = function() {
+        for(var a in mucicFiles){
+        $("#musiclist").append("<li>" + mucicFiles[a].name + " - " + mucicFiles[a].author + "</li>");
+        }
+        //nextMusic();
+    }();
+	$("#next").bind("click", nextMusic);
+	// $("audio").bind("error", nextMusic);
+	
+	function nextMusic(){
+       if(playMode == 1){
+            musicIndex += 1;
+        }
+        if(musicIndex == mucicFiles.length){
+            musicIndex = 0;
+        }
+        playMusic(musicIndex);
+    }
+	
+	function playMusic(index){
+        playingFile = mucicFiles[index];
+        $media.attr("src",playingFile.url);
+        $media[0].play();
+        $("#musiclist>li").removeClass("isplay").eq(index).addClass("isplay");
+		auto();
+    }
+	
+	function auto(){
+		var allTime = $media[0].duration;
+		var currentTime = $media[0].currentTime;
+		var percent = Math.floor(currentTime * 100 / allTime);
+		if (isNaN(allTime)) {
+			$("#progress div").css({background:"url(images/load.png repeat-x)",width:"100px"});
+		} else {
+			$("#progress div").css("background", "#374D62");
+			$("#progress div").css("width", percent + "px");
+			$("#time").html(timeformat(currentTime) + " / " + timeformat(allTime));
+		}
+		setTimeout(auto, 1000);
+		if ($media[0].ended == true) {
+			nextMusic();
+		}
+	};
+	
+	function timeformat(time) {
+		var t = Math.round(time);
+		var h = Math.floor(t / 3600);
+		var m = Math.floor(t / 60);
+		var s = t - h * 3600 - m * 60;
+		if(h == 0) {
+			str = m>9?m:("0"+m) + ":" + (s>9?s:("0"+s));
+		} else {
+			str = h>9?h:("0"+h) + ":" + (m>9?m:("0"+m)) + ":" + (s>9?s:("0"+s));
+		}
+		return str;
+	}
+	
+	// 双击播放列表播放
+	$("#musiclist>li").dblclick(function(){
+		musicIndex = $("#musiclist>li").index(this);
+		$("#play").addClass("playing");
+		playMusic(musicIndex);
+		if (playMode == 0) {
+			$("#musiclist>li").removeClass("disable").not(".isplay").addClass("disable");
+		}
+	});
+	
+	//播放按钮切换
+	$("#play").click(function(){
+		if ($("#play").is(".playing")) {
+			$("#play").removeClass("playing");
+			$media[0].pause();
+		} else {
+			$("#play").addClass("playing");
+			$media[0].play();
+		}
+	});
+	
+	//选择进度
+	$("#progress").click(function(e){
+		var offset = $("#progress div").offset();
+		var width = e.pageX - offset.left;
+		var allTime = $media[0].duration;
+		$media[0].currentTime = allTime * width / 100;
+		$("#progress div").css("width", width + "px");
+	});
+	
+	//音量调整
+	var isdown = false;
+	$("#volume div").mousedown(function(e){
+		var offset = $("#volume").offset();
+		var left = e.pageX - offset.left - 8;
+		left = left>34? 34 : left;
+		left = left<0? 0 : left;
+		$("#volume div").css("left", left + "px");
+		isdown = true;
+	});
+	
+	$(document).mousemove(function(e){
+		if (isdown) {
+			var offset = $("#volume").offset();
+			var left = e.pageX - offset.left - 8;
+			left = left>34? 34 : left;
+			left = left<0? 0 : left;
+			$("#volume div").css("left", left + "px");
+			$media[0].volume = Math.round(left / 34 * 10) / 10;
+		}
+	});
+	
+	$(document).mouseup(function(){
+		isdown = false;
+		//alert(isdown);
+	});
+	
+	$("#volume").click(function(e){
+		var offset = $("#volume").offset();
+		var left = e.pageX - offset.left - 8;
+		left = left>34? 34 : left;
+		left = left<0? 0 : left;
+		$("#volume div").css("left", left + "px");
+		$media[0].volume = Math.round(left / 34 * 10) / 10;
+	});
+	
+	//模式切换
+	$("#mode").click(function(){
+		if (playMode == 1) {
+			$("#mode").html("单首");
+			$("#musiclist>li").not(".isplay").addClass("disable");
+			playMode = 0;
+		} else {
+			$("#mode").html("全部");
+			$("#musiclist>li").removeClass("disable");
+			playMode = 1;
+		}
+	});
+});
+	</script>
+	
+    </head>
+    <body>
+	<h1>精选音乐</h1>
+		
+	<div id="player">
+		<audio id="musicbox"></audio>
+		<div id="controls" class="clearfix controls">
+			<div id="play" class="playing"></div>
+			<div id="next"></div>
+			<div id="progress">
+				<div></div>
+				<p id="time">00:00 / 00:00</p>
+			</div>
+			<div id="volume">
+				<div></div>
+			</div>
+		</div>
+		<!--
+		<div class="bar"><button>重置列表</button><button>随机打乱</button><button>清空列表</button></div>
+		-->
+		<ul id="musiclist" scroll="auto"></ul>
+		<div class="bar bottom"><span>播放模式：</span><span id="mode">全部</span></div>
+	</div>
+
+		
+    </body>
+</html>
