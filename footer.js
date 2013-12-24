@@ -3,10 +3,12 @@ document.writeln("<div class=\"bshare-custom\"><a title=\"分享到\" href=\"htt
 
 document.writeln("<br />");
 document.writeln("<hr />");
-document.writeln("<p>© 2012 天香嘉韵.</p>");
-document.writeln("<p>地址：广州南方茶叶市场南区A17正道茶行</p>");
-document.writeln("");
+document.write("<p>© 2012 天香嘉韵.</p>");
 
 <!--百度统计-->
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F91c4162d2211f5bbead7f3b8f12fbd8d' type='text/javascript'%3E%3C/script%3E"));
+document.writeln(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F91c4162d2211f5bbead7f3b8f12fbd8d' type='text/javascript'%3E%3C/script%3E"));
+
+document.writeln("<p>地址：广州南方茶叶市场南区A17正道茶行</p>");
+document.writeln("");
+
