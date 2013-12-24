@@ -4,6 +4,8 @@ document.writeln("<div class=\"bshare-custom\"><a title=\"分享到\" href=\"htt
 document.writeln("<br />");
 document.writeln("<hr />");
 document.writeln("<p>© 2012 天香嘉韵.</p>");
+document.writeln("<p>地址：广州南方茶叶市场南区A17正道茶行</p>");
+document.writeln("");
 
 <!--百度统计-->
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
