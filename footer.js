@@ -3,7 +3,7 @@ document.writeln("<div class=\"bshare-custom\"><a title=\"分享到\" href=\"htt
 
 document.writeln("<hr />");
 document.writeln("<h3>更多本站的精彩内容：</h3>");
-document.writeln("<table>");
+document.writeln("<table width=\"100%\">");
 document.writeln("<tr>");
 document.writeln("<td width=\"50%\">");
 document.writeln("<ul>");
