@@ -1,8 +1,9 @@
 <!--分享-->
 document.writeln("<div class=\"bshare-custom\"><a title=\"分享到\" href=\"http://www.bShare.cn/\" id=\"bshare-shareto\" class=\"bshare-more\">分享到</a><a title=\"分享到新浪微博\" class=\"bshare-sinaminiblog\">新浪微博</a><a title=\"分享到微信\" class=\"bshare-weixin\">微信</a><a title=\"分享到QQ空间\" class=\"bshare-qzone\">QQ空间</a><a title=\"分享到人人网\" class=\"bshare-renren\">人人网</a><a title=\"分享到天涯\" class=\"bshare-tianya\">天涯</a><a title=\"更多平台\" class=\"bshare-more bshare-more-icon more-style-addthis\"></a><span class=\"BSHARE_COUNT bshare-share-count\">0</span></div><script type=\"text/javascript\" charset=\"utf-8\" src=\"http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh\"></script><script type=\"text/javascript\" charset=\"utf-8\" src=\"http://static.bshare.cn/b/bshareC0.js\"></script>");
 
+document.writeln("<br />");
 document.writeln("<hr />");
-document.writeln("<h3>更多本站的精彩内容：</h3>");
+document.writeln("<h3>本站更多精彩内容：</h3>");
 document.writeln("<table width=\"100%\">");
 document.writeln("<tr>");
 document.writeln("<td width=\"50%\">");
@@ -29,8 +30,8 @@ document.writeln("<table>");
 document.writeln("<br />");
 document.writeln("<hr />");
 document.write("<p>© 2012 天香嘉韵.</p>");
-document.writeln("<p>广州店铺地址：广州南方茶叶市场南区A17	联系电话：13927268811</p>");
-document.writeln("<p>北京店铺地址：北京马连道国际茶城B1-28	联系电话：13521506562</p>");
+document.writeln("<p>广州店地址：广州南方茶叶市场南区A17	联系电话：13927268811</p>");
+document.writeln("<p>北京店地址：北京马连道国际茶城B1-28	联系电话：13521506562</p>");
 
 <!--百度统计-->
 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
