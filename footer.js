@@ -29,7 +29,7 @@ document.writeln("<table>");
 
 document.writeln("<br />");
 document.writeln("<hr />");
-document.write("<p align=\"center\">© 2012 天香嘉韵.</p>");
+document.write("<p align=\"center\">© 2012-2014 天香嘉韵.</p>");
 document.writeln("<p align=\"center\">广州店地址：广州南方茶叶市场南区A17 &nbsp &nbsp &nbsp 联系电话：13927268811</p>");
 document.writeln("<p align=\"center\">北京店地址：北京马连道国际茶城B1-28 &nbsp &nbsp &nbsp 联系电话：13521506562</p>");
 
