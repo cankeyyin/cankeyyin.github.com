@@ -8,9 +8,8 @@ document.write("<table width=\"100%\"");
 document.writeln("<tr>");
 document.writeln("<td>");
 
-document.write("<h5>活动公告：成为本站折扣会员 终生95折优惠!</h3>");
-document.write("<p>&nbsp &nbsp &nbsp &nbsp 方法1：一次购物300元以上。</p>");
-document.write("<p>&nbsp &nbsp &nbsp &nbsp 方法2：通过新浪微博<code>转发本站任一篇文章，然后@天香品茶居+3位好友</code>。购物时在备注写上VIP+你的微博名即可享受优惠，我们会向您返还折扣部分金额。</p>");
+document.write("<h5>活动公告：分享文章便成折扣会员 <code>终生95折</code>优惠!</h3>");
+document.write("<p>&nbsp &nbsp &nbsp &nbsp 通过新浪微博<code>转发本站任一篇文章，然后@天香品茶居+3位好友</code>。购物时在备注写上VIP+你的微博名即可享受优惠，我们会向您返还折扣部分金额。</p>");
 
 document.writeln("</td>");
 document.writeln("</tr>");
