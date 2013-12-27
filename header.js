@@ -2,6 +2,21 @@
 document.writeln("<p><a href=\"index.html\">返回首页</a></p>");
 document.writeln("");
 
+document.write("<div align=\"center\">")
+document.write("<table width=\"100%\"");
+document.writeln("<tr>");
+document.writeln("<td>");
+
+document.write("<h5>活动公告：回馈热心读者 转发文章有奖</h3>");
+document.write("<p>通过新浪微博在本站<code>转发一篇你喜欢的文章，然后@天香品茶居+3位好友</code>，就能获得<code>终生95折</code>优惠！！！</p>");
+document.write("<p>微博转发文章后，在本站购物时，只要在备注里写上VIP+空格+你的微博名即可享受优惠，我们会向您返还折扣部分金额。</p>");
+
+document.writeln("</td>");
+document.writeln("</tr>");
+document.write("</table>");
+document.write("</div>")
+document.writeln("");
+
 /*
 document.write("<div align=\"center\">")
 document.write("<table width=\"100%\"");
