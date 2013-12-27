@@ -8,8 +8,10 @@ document.write("<table width=\"100%\"");
 document.writeln("<tr>");
 document.writeln("<td>");
 
-document.write("<h5>活动公告：分享文章便成折扣会员 <code>终生95折</code>优惠!</h3>");
-document.write("<p>&nbsp &nbsp &nbsp &nbsp 通过新浪微博<code>转发本站任一篇文章，然后@天香品茶居+3位好友</code>。购物时在备注写上VIP+你的微博名即可享受优惠，我们会向您返还折扣部分金额。</p>");
+document.write("<h5>活动公告：回馈热心读者 转发文章有奖</h3>");
+document.write("<p>通过新浪微博在本站<code>转发一篇你喜欢的文章，然后@天香品茶居+3位好友</code>，就能获得<code>终生95折</code>优惠和一本<code>精美的PDF《实用茶书》</code>！！！</p>");
+document.write("<p>终生95折：微博转发文章后，在本站购物时，只要在备注里写上VIP+空格+你的微博名即可享受优惠，我们会向您返还折扣部分金额。</p>");
+document.write("<p>实用茶书：微博转发文章后，把你的微博名发送到thgwcn@foxmail.com，我们审核后会给您回复邮件，里面有PDF的下载链接和密码。</p>");
 
 document.writeln("</td>");
 document.writeln("</tr>");
