@@ -1,0 +1,86 @@
+词汇：
+增强现实	AR Augmented Reality
+虚拟现实	VR Virtual Reality
+		2D/3D
+		Metaio
+技术支持	technical support engineer
+		image tracking technology
+出国签证	visa
+工资		salary
+公道（工资）	sutable?
+母语		first language/mother tongue
+普通话		Mandarin
+广东话		Cantonese
+广州（旧称）	Canton
+
+
+
+句型：
+
+my major is
+
+I take the coding responsibility of one module
+
+good training, good pay, and good people to work with
+
+
+
+遇到困难时：
+I have no idea of it now. Can I reply you later by email? 
+
+Would you please say it in other words?
+
+Would you please speak a little bit louder/slowly? I can not hear you clearly. 
+
+I can't speak fluent english ,but I'll try my best to let you understand what I mean
+
+sorry, I forget the detail
+
+
+话题：
+*Start
+(Hello!)(It's me.)You can call my Sunkay. 26 years old.
+
+
+*Statement:My Enlglish:
+To by honest,I can't speak fluent english ,but I'll try my best to let you know what I mean.Maybe sometimes I would use short phrases instead of scentences. 
+And, would you please speak a little bit slowly? 
+
+
+*My Skills:
+I think I'm suitable for this job.I have a technical background（include C++,adobe Flash,Android,IOS,also simple web development） and the ability to translate english to chinese ,and the ability to deal with clients. I can speak two kinds of Chinese language,Mandarin and Cantonese(south of china hongkong,mercao).
+
+我会Flash游戏、IOS、Android、PC、简单的网页开发。
+
+
+
+*When and What I learn about AR
+我大概09年开始接触AR 当时没有成熟的框架 当时用过FLARToolkit FLARManager ARToolkit这些SDK，还用过OpenCV
+
+
+
+*My previous company
+In June 2011，I joined a company called VTRON as a android/IOS software engineer.
+
+a leading technology company that specialize in visualization systems and solutions
+
+video-wall systems
+
+After 2 years working for this company, I left because there's no more mobile projects in the company. If I prefer to stay,I have to do other jobs that I'm not good at. And the second reason, my wife was pregnent,6 months,
+
+*metio的技术
+
+
+*做过的项目
+
+*AR技术
+
+*技术的不同点
+
+
+
+
+
+
+
+nice to talking to you.
